@@ -98,3 +98,29 @@
   p{
     text-align: justify;
   }
+  footer a {
+    color: #569cff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+footer a:hover {
+  text-decoration: underline;
+}a[href="#"] {
+  
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  
+}
+a[href="#"]:hover {
+  background: #555;
+}
